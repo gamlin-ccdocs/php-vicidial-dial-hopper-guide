@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/vicidial-dial-hopper-guide",
+    "description": "VICIdial Dial Hopper: How It Works and Why Yours Is Empty",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "dial",
+        "hopper",
+        "guide"
+    ],
+    "homepage": "https://vicistack.com/blog/vicidial-dial-hopper-guide/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\VicidialDialHopperGuide\\": "src/"
+        }
+    }
+}
